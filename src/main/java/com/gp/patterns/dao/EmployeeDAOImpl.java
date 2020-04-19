@@ -16,7 +16,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
 		String sql="insert into employee values(?,?)";
 		jdbcTemplate.update(sql,employee.getId(),employee.getName());
-		System.out.println("testing git 04182020");
+		System.out.println("testing git 04192020");
 	}
 
 }
